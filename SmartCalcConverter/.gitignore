@@ -1,0 +1,20 @@
+*.iml
+.gradle/
+/local.properties
+/.idea/
+/caches/
+/build/
+/app/build/
+/captures/
+.externalNativeBuild/
+
+# Keystore files
+*.jks
+*.keystore
+
+# Gradle
+.gradle/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Others
+.DS_Store

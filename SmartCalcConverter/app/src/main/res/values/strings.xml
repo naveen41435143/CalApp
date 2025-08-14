@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SmartCalc</string>
+    <string name="tab_calculator">Calculator</string>
+    <string name="tab_converter">Converter</string>
+    <string name="hint_input_value">Enter value</string>
+    <string name="action_ac">AC</string>
+    <string name="action_backspace">⌫</string>
+    <string name="action_second">2nd</string>
+    <string name="action_equals">=</string>
+    <string name="label_result">Result</string>
+    <string name="label_formula">Expression</string>
+    <string name="label_from_unit">From</string>
+    <string name="label_categories">Categories</string>
+</resources>

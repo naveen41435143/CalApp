@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	android:padding="12dp">
+
+	<TextView
+		android:id="@+id/tvExpression"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text=""
+		android:textColor="@color/colorOnSurface"
+		android:textSize="16sp"
+		android:ellipsize="start"
+		android:singleLine="true" />
+
+	<TextView
+		android:id="@+id/tvResult"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="0"
+		android:textColor="@color/colorPrimary"
+		android:textSize="32sp"
+		android:gravity="end"
+		android:paddingTop="8dp"
+		android:paddingBottom="8dp" />
+
+	<GridLayout
+		android:id="@+id/grid"
+		android:layout_width="match_parent"
+		android:layout_height="0dp"
+		android:layout_weight="1"
+		android:columnCount="4"
+		android:rowCount="9"
+		android:useDefaultMargins="true">
+
+		<Button android:id="@+id/btnSecond" style="@style/Widget.SmartCalc.Button" android:text="@string/action_second" />
+		<Button android:id="@+id/btnPi" style="@style/Widget.SmartCalc.Button" android:text="π" />
+		<Button android:id="@+id/btnE" style="@style/Widget.SmartCalc.Button" android:text="e" />
+		<Button android:id="@+id/btnBack" style="@style/Widget.SmartCalc.Button" android:text="@string/action_backspace" />
+
+		<Button android:id="@+id/btnAc" style="@style/Widget.SmartCalc.Button" android:text="@string/action_ac" />
+		<Button android:id="@+id/btnOpenParen" style="@style/Widget.SmartCalc.Button" android:text="(" />
+		<Button android:id="@+id/btnCloseParen" style="@style/Widget.SmartCalc.Button" android:text=")" />
+		<Button android:id="@+id/btnDivide" style="@style/Widget.SmartCalc.Button" android:text="÷" />
+
+		<Button android:id="@+id/btnSeven" style="@style/Widget.SmartCalc.Button" android:text="7" />
+		<Button android:id="@+id/btnEight" style="@style/Widget.SmartCalc.Button" android:text="8" />
+		<Button android:id="@+id/btnNine" style="@style/Widget.SmartCalc.Button" android:text="9" />
+		<Button android:id="@+id/btnMultiply" style="@style/Widget.SmartCalc.Button" android:text="×" />
+
+		<Button android:id="@+id/btnFour" style="@style/Widget.SmartCalc.Button" android:text="4" />
+		<Button android:id="@+id/btnFive" style="@style/Widget.SmartCalc.Button" android:text="5" />
+		<Button android:id="@+id/btnSix" style="@style/Widget.SmartCalc.Button" android:text="6" />
+		<Button android:id="@+id/btnMinus" style="@style/Widget.SmartCalc.Button" android:text="−" />
+
+		<Button android:id="@+id/btnOne" style="@style/Widget.SmartCalc.Button" android:text="1" />
+		<Button android:id="@+id/btnTwo" style="@style/Widget.SmartCalc.Button" android:text="2" />
+		<Button android:id="@+id/btnThree" style="@style/Widget.SmartCalc.Button" android:text="3" />
+		<Button android:id="@+id/btnPlus" style="@style/Widget.SmartCalc.Button" android:text="+" />
+
+		<Button android:id="@+id/btnZero" style="@style/Widget.SmartCalc.Button" android:text="0" />
+		<Button android:id="@+id/btnDot" style="@style/Widget.SmartCalc.Button" android:text="." />
+		<Button android:id="@+id/btnPercent" style="@style/Widget.SmartCalc.Button" android:text="%" />
+		<Button android:id="@+id/btnEquals" style="@style/Widget.SmartCalc.Button" android:text="@string/action_equals" />
+
+		<Button android:id="@+id/btnSin" style="@style/Widget.SmartCalc.Button" android:text="sin" />
+		<Button android:id="@+id/btnCos" style="@style/Widget.SmartCalc.Button" android:text="cos" />
+		<Button android:id="@+id/btnTan" style="@style/Widget.SmartCalc.Button" android:text="tan" />
+		<Button android:id="@+id/btnPow" style="@style/Widget.SmartCalc.Button" android:text="xʸ" />
+
+		<Button android:id="@+id/btnSqrt" style="@style/Widget.SmartCalc.Button" android:text="√" />
+		<Button android:id="@+id/btnLn" style="@style/Widget.SmartCalc.Button" android:text="ln" />
+		<Button android:id="@+id/btnLog" style="@style/Widget.SmartCalc.Button" android:text="log" />
+		<Button android:id="@+id/btnFact" style="@style/Widget.SmartCalc.Button" android:text="n!" />
+
+		<Button android:id="@+id/btnRecip" style="@style/Widget.SmartCalc.Button" android:text="1/x" />
+	</GridLayout>
+</LinearLayout>
